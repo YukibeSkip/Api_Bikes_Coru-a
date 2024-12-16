@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from datetime import datetime
 
 # Configuración de MongoDB
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb://mongo_db:27017/")
 db = client.citybikes_db  # Nombre de la base de datos
 collection = db.stations  # Nombre de la colección donde guardaremos los datos de las estaciones
 
