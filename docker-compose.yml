@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mongo_db
+    ports:
+      - "27017:27017"
+
+  app:
+    image: conexdocker # Puedes reemplazar con la imagen de tu aplicación
+    container_name: conexdocker
+    depends_on:
+      - mongo
