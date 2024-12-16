@@ -11,6 +11,7 @@ El proyecto utliza dos scripts en python para interactuar con una API, almacenar
   - `pymongo`
   - `pyarrow`
   - `schedule`
+    
  -Api de la que saco los datos: http://api.citybik.es/v2/networks
 
 ###📃 Notas:
