@@ -18,6 +18,12 @@ El proyecto utliza dos scripts en python para interactuar con una API, almacenar
 # 👨‍💻Descripción de los scripts:
 ##Script 1:ConexionAPI --> Conexión a la API y almacenamiento de datos en MongoDB
 
-El script se conecta con la API citybikes a intervalos regulares (yo le puse cada 5 minutos pero puede ser mas o menos), obtiene los datos y los almacena en una base de datos MongoDB. El script ejecuta un ciclo infinito que solo se detiene cuando el usuario lo cancela manualmente. En este caso los datos que imprime son los de las paradas de bicis de A Coruña.
+El script se conecta con la API citybikes a intervalos regulares, obtiene los datos y los almacena en una base de datos MongoDB. El script ejecuta un ciclo infinito que solo se detiene cuando el usuario lo cancela manualmente. En este caso los datos que imprime son los de las paradas de bicis de A Coruña.
 
+### 🖥Funcionalidades:
+  -Conexión a la API a intervalos regulares (esta puesto cada 5 minutos pero puede modificarse facilmente).
+  -Obtención de datos de la API.
+  -Almacenamiento de los datos en MongoDB.
+  -El script sigue ejecutándose hasta ser detenido por el usuario.
 
+##
