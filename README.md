@@ -2,7 +2,7 @@
 
 El proyecto utliza dos scripts en python para interactuar con una API, almacenar los datos en MongoDB y luego procesarlos y exportalos en formatos direfrentes
 
-## ☝🤓Requisitos:
+##☝🤓Requisitos:
 - Python 3.13 
 - MongoDB en ejecución (local o remoto)
 - Paquetes de Python necesarios: (Puedes intalar los paquetes usando pip)
@@ -20,7 +20,7 @@ El proyecto utliza dos scripts en python para interactuar con una API, almacenar
 
 El script se conecta con la API citybikes a intervalos regulares, obtiene los datos y los almacena en una base de datos MongoDB. El script ejecuta un ciclo infinito que solo se detiene cuando el usuario lo cancela manualmente. En este caso los datos que imprime son los de las paradas de bicis de A Coruña.
 
-### 🖥Funcionalidades:
+###🖥Funcionalidades:
   -Conexión a la API a intervalos regulares (esta puesto cada 5 minutos pero puede modificarse facilmente).
   
   -Obtención de datos de la API.
