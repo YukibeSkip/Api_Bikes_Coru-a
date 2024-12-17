@@ -57,5 +57,32 @@ ee los documentos almacenados en MongoDB.
 
 -Ejecuta el script: "*python script2.py*"
 
+## 💾 Estrutura de Base de datos en MongoDB
+La base de datos MongoDB debe contener una colección con los documentos que tienen la siguiente estructura:
+  {
+    "id": "unique_id",
+    "name": "bike_station_name",
+    "timestamp": "2024-12-17T12:00:00",
+    "free_bikes": 10,
+    "empty_slots": 5,
+    "uid": "station_uid",
+    "last_updated": "2024-12-17T12:01:00",
+    "slots": 20,
+    "normal_bikes": 12,
+    "ebikes": 8
+  }
+  
+El Script 1 almacenará los documentos en MongoDB y el Script 2 los extraerá y los exportará en los formatos solicitados.
+
+# 📚 Datos
+-Todos los datos estan guardados en la carpeta datos
+
+# 🔩 Dokcer
+
+-Con el codigo del documento: docker-compose.yml podras crear la base de datos de MongoDB con docker 
+
+-En la carpeta conexdocker ya esta preparado el scrip 1: ConexionAPI, àra ejecutarlo con dockers 
+
+-Además podras craer una imagen de docker con el documento Dockerfile
 
 
