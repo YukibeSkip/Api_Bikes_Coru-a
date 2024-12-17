@@ -32,4 +32,20 @@ El script se conecta con la API citybikes a intervalos regulares, obtiene los da
 ###⚙ Intrucciones de uso
   -Asegura de que Mongodb este corriendo y que este puesto en el puerto: 27017 (o si lo pones em uno diferente asegurate de cambiarlo en el codigo 😉👍)
 
-  -Ejecuta el script *python script1.py*
+  -Ejecuta el script "*python script1.py*"
+  
+El script descargará y almacenará los datos de la API en MongoDB de manera continua hasta que lo detengas manualmente.
+
+##👨‍💻Script 2:Almacenamiento -->Carga de datos de MongoDB, procesamiento y exportación
+Este script lee los datos almacenados en MongoDB, los carga en un DataFrame de pandas, y los exporta a los formatos CSV y Parquet. Puedes ejecutarlo en cualquier momento para extraer todos los documentos de la base de datos y exportarlos.
+
+### 🖥Funcionalidades:
+ee los documentos almacenados en MongoDB.
+  -Extrae los campos seleccionados: 
+    'id', 'name', 'timestamp', 'free_bikes', 'empty_slots', 'uid', 'last_updated', 'slots', 'normal_bikes', 'ebikes'.
+
+  -Exporta los datos en los siguientes formatos:
+    -CSV
+    -Parquet
+
+
