@@ -42,7 +42,9 @@ Este script lee los datos almacenados en MongoDB, los carga en un DataFrame de p
 ### 🖥Funcionalidades:
 ee los documentos almacenados en MongoDB.
   -Extrae los campos seleccionados: 
-    `id`, `name`, `timestamp`, `free_bikes`, `empty_slots`, `uid`', `last_updated`, `slots`, `normal_bikes`, `ebikes`.
+    `id`, `name`, `timestamp`, `free_bikes`,
+    `empty_slots`, `uid`, `last_updated`,
+    `slots`, `normal_bikes`, `ebikes`.
 
   -Exporta los datos en los siguientes formatos:
     -CSV
