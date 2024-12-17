@@ -22,8 +22,11 @@ El script se conecta con la API citybikes a intervalos regulares, obtiene los da
 
 ### 🖥Funcionalidades:
   -Conexión a la API a intervalos regulares (esta puesto cada 5 minutos pero puede modificarse facilmente).
+  
   -Obtención de datos de la API.
+  
   -Almacenamiento de los datos en MongoDB.
+  
   -El script sigue ejecutándose hasta ser detenido por el usuario.
 
 ##
