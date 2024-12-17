@@ -1,3 +1,5 @@
+# 🚲🚲 Datos de las paradas de bici de A Coruña
+
 #📝🤔 De que va el proyecto?:
 
 El proyecto utliza dos scripts en python para interactuar con una API, almacenar los datos en MongoDB y luego procesarlos y exportalos en formatos direfrentes
@@ -49,5 +51,11 @@ ee los documentos almacenados en MongoDB.
   -Exporta los datos en los siguientes formatos:
     -CSV
     -Parquet
+
+### ⚙ Intrucciones de uso
+-Asegúrate de que MongoDB tenga datos almacenados (esto debe ser el resultado de la ejecución del Script 1).
+
+-Ejecuta el script: "*python script2.py*"
+
 
 
