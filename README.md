@@ -1,6 +1,6 @@
 # 🚲🚲 Datos de las paradas de bici de A Coruña
 
-#📝🤔 De que va el proyecto?:
+# 📝🤔 De que va el proyecto?:
 
 El proyecto utliza dos scripts en python para interactuar con una API, almacenar los datos en MongoDB y luego procesarlos y exportalos en formatos direfrentes
 
