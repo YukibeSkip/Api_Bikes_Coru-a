@@ -29,4 +29,7 @@ El script se conecta con la API citybikes a intervalos regulares, obtiene los da
   
   -El script sigue ejecutándose hasta ser detenido por el usuario.
 
-##
+###⚙ Intrucciones de uso
+  -Asegura de que Mongodb este corriendo y que este puesto en el puerto: 27017 (o si lo pones em uno diferente asegurate de cambiarlo en el codigo 😉👍)
+
+  -Ejecuta el script "python script1.py"
